@@ -36,4 +36,16 @@
     (/ u4 u2)
 )
 
-;; (contract-call? .clarity-basics-i devide)
+
+(define-read-only (convert-to-int) 
+    (to-int u5)
+)
+
+(define-read-only (convert-to-uint) 
+    (to-uint 10)
+)
+
+
+
+
+;; (contract-call? .clarity-basics-i convert-to-uint)
